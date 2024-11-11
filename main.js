@@ -17,12 +17,13 @@ document.querySelector("#idade").addEventListener("submit", function(event) {
             alert("Inválido, para proseguir digite um valor maior no segundo campo");
             event.preventDefault(); // Impede o envio do formulário
         } else {
-            alert('Sua idade é de ....') //Emiti esse alerta mas no caso queria que a conta fosse realizada
+           let idade = segundaDataConvertida - primeiraDataConvertida;
+            alert(`Sua idade é de ${idade} anos.`); 
+            //Vai fazer a conta entre a data do ano atual e a data de nascimento
             
         }
         
     });
-    //Não consegui fazer a conta entre o ano atual e a data de nascimento, se possível me ajudar e tirar a dúvida. Agradecido
     
 
 
