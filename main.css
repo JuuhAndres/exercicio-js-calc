@@ -66,14 +66,4 @@ button:hover{
     background-color: rgb(255, 68, 0);
     transition: 0.5s;
 }
-p{
-    width: 300px;
-    background-color: rgb(255, 68, 0);
-    font-size: 16px;
-    border-radius: 5px;
-    padding: 10px;
-    margin-left: 100px;
-    text-align: center;
-    /*display: none;*/
-    
-}
+
